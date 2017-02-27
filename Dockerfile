@@ -6,7 +6,7 @@ MAINTAINER bluebu <bluebuwang@gmail.com>
 #------------------------------------------------------------------------------
 
 RUN \
-  yum update --assumeno && \
+  yum update -y && \
   yum install -y epel-release wget
 
 RUN \
